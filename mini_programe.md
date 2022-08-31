@@ -1313,3 +1313,60 @@ Component({
 
 # 13.使用npm包
 
+目前，小程序中已经支持使用 npm 安装第三方包，从而来提高小程序的开发效率。但是，在小程序中使用 npm 包有如下 3 个限制：
+
+1. 不支持依赖于Node.js内置库的包
+2. 不支持依赖于浏览器内置对象的包
+3. 不支持依赖于C++插件的包
+
+## 1.Vant Weapp
+
+1. 什么是Vant Weapp
+
+   Vant Weapp 是有赞前端团队开源的一套小程序 UI 组件库，助力开发者快速搭建小程序应用。它所使用的是 MIT 开源许可协议，对商业使用比较友好。
+
+   官方文档地址 https://youzan.github.io/vant-weapp
+
+2. 安装Vant组件库
+
+   再小程序项目中，安装Vant组件库主要风味如下3步:
+
+   1. 通过npm安装
+   2. 构建npm包
+   3. 修改app.json
+
+3. 使用vant组件
+
+   安装完 Vant 组件库之后，可以在 app.json 的 usingComponents 节点中引入需要的组件，即可在 wxml 中 直接使用组件。示例代码如下：
+
+   ```json
+   // app.json
+   "usingComponents":{
+       "vant-button":"@vant/weapp/button/index"
+   }
+   ```
+
+   ```html
+   <!--页面的wxml文件-->
+   <vant-button type="primary">按钮</vant-buttons
+   ```
+
+4. 定制全局样式
+
+   Vant Weapp 使用 CSS 变量来实现定制主题。
+
+5. 定制全局主题样式
+
+   在 app.wxss 中，写入 CSS 变量，即可对全局生效：
+
+   ```css
+   /*app.wxss*/
+   page{
+       /*定制警告按钮的而背景颜色和边框颜色*/
+       --button-danger-background-color:#c00000;
+       --button-danger-border-color:#d60000;
+   }
+   ```
+
+### 2.API Promise化
+
