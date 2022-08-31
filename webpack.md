@@ -1,6 +1,4 @@
-
-
-# yarn
+#yarn
 
 ```bash
 # 1. 初始化, 得到package.json文件(终端路径所在文件夹下)
