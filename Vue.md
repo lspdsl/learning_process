@@ -1947,7 +1947,7 @@ nodejs路由：接口和服务的映射关系
 
 切换url上hash值, 开始匹配规则, 对应组件展示到 router-view位置
 
-```vue
+```js
 <!--main.js-->
 import Vue from 'vue'
 import App from './App.vue'
