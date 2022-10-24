@@ -14,23 +14,25 @@ jsconfig.json
 }
 ```
 
-# 1.datepicker
+# modules
+
+##1.datepicker
 
 格式化日期
 
-# 2.fullpage
+## 2.fullpage
 
-# 3.lazyload
+## 3.lazyload
 
-# 4.echarts
+## 4.echarts
 
-# 5.layui
+## 5.swiper
 
-# 6.swiper
+## 6.elementui
 
-# 7.element
+## 7.layui
 
-# 8.vuex-persistedstate
+##8.vuex-persistedstate
 
 让在vuex中管理的状态数据同时存储在本地，免去自己存储的环节
 
@@ -143,11 +145,9 @@ jsconfig.json
 
    修改state后触发才可以看到本地存储数据的的变化
 
-# 9.qs
+## 9.qs
 
-格式化参数
-
-# 10.style-resources-loader
+##10.style-resources-loader
 
 将less公用的变量和mixin自动注入到每个less文件或vue组件中的style标签中
 
@@ -174,7 +174,7 @@ jsconfig.json
    }
    ```
 
-# 11.normalize
+##11.normalize
 
 重置样式
 
@@ -190,6 +190,16 @@ jsconfig.json
    import 'normalize.css'
    ```
 
-   # 12.easy sass
-   
-   
+
+# vscode plugins
+
+## 1.easy less
+
+## 2.easy sass
+
+# webstorm plugins
+
+ 
+
+
+

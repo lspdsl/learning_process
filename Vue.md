@@ -2911,6 +2911,10 @@ computed: {
  <div>{{ filterList }}</div>
 ```
 
+## 6.vuex模块化
+
+
+
 # vue进阶
 
 
